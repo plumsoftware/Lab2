@@ -1,5 +1,5 @@
 # Lab2
-This is Android Lab #2
+This is IOS Lab #2
 It is just one screen, created with SwiftUI
 
 ## Небольшое предисловие
