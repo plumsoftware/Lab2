@@ -2,19 +2,19 @@ import SwiftUI
 
 struct ProfileBar: View {
 
-    let user: User = User(icon: "profile", name: "Slava")
+    var user: User = User(icon: "profile", name: "Slava")
 
     var body: some View {
-        HStack(alignment: .leading) {
+        HStack(alignment: .top) {
             Text("Hello,")
-                .font(.custom(MyFonts.poppinsRegular, size: 14.0, .fontWeight(.regular)))
-                .foregroundColor(ColorTheme.MyText.Secondary)
+                .font(.custom(MyFonts.poppinsRegular, size: 14.0))
+                .foregroundColor(MyColors.MyText.Secondary)
             Text("Hi " + user.name)
-                .font(.custom(MyFonts.poppinsRegular, size: 20, .fontWeight(.bold)))
+                .font(.custom(MyFonts.poppinsRegular, size: 20))
             
             Spacer()
             
-            Image(user.imageAvatarName)
+            Image(user.icon)
                 .resizable()
                 .frame(width: 56, height: 56)
 
@@ -26,6 +26,6 @@ struct ProfileBar: View {
 
 struct ProfileBar_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileBar()
+        ProfileBar(user: User(icon: "profile", name: "Slava"))
     }
 }

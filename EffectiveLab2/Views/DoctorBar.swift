@@ -28,42 +28,42 @@ struct DoctorBar: View {
 
                     VStack (alignment: .leading){
                     Text(doctor.name)
-                        .font(Font.custom(MyFonts.poppinsRegular, size: 16, .fontWeight(.bold)))
+                            .font(.custom(MyFonts.poppinsBold, size: 16))
                         .foregroundColor(.white)
                     Text(doctor.job)
-                        .font(Font.custom(MyFonts.poppinsRegular, size: 14, .fontWeight(.regular)))
-                        .foregroundColor(MyColors.Text.White)
+                        .font(Font.custom(MyFonts.poppinsRegular, size: 14))
+                        .foregroundColor(MyColors.MyText.White)
                     }
 
                 
                     Spacer()
                     Image("arrow_right")
-                        .foregroundColor(MyColors.Text.White)    
+                        .foregroundColor(MyColors.MyText.White)
                     }
                         .padding(0)
                         .frame(maxWidth: .infinity, alignment: .center)
             }
 
             Divider()
-                .overlay(MyColors.Text.White.opacity(0.5))
+                .overlay(MyColors.MyText.White.opacity(0.5))
                 .frame(height: 16)
                 .padding(.vertical, 16)
 
-            HStack(alignment: .top, spacing: 12) 
+            HStack(alignment: .top, spacing: 12)
             {
                 Image("calendar")
                         .resizable()
                         .frame(width: 16, height: 16)
                     Text("Sunday, 12 June")
-                        .foregroundColor(MyColors.Text.White)
-                        .font(.custom(MyFonts.poppinsRegular, size: 12, .fontWeight(.regular)))
+                        .foregroundColor(MyColors.MyText.White)
+                        .font(.custom(MyFonts.poppinsRegular, size: 12))
                     Spacer()
                     Image("clock")
                         .resizable()
                         .frame(width: 16, height: 16)
                     Text(doctor.lastOpen)
-                        .foregroundColor(MyColors.Text.White)
-                        .font(.custom(FontTheme.poppinsRegular, size: 12, .fontWeight(.regular)))
+                        .foregroundColor(MyColors.MyText.White)
+                        .font(.custom(MyFonts.poppinsRegular, size: 12))
                         .padding(.trailing, 24)
             }
                 .padding(0)

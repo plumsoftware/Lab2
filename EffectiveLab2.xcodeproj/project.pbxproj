@@ -20,14 +20,13 @@
 		5722B56D2B065DA500B68C11 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B56C2B065DA500B68C11 /* Doctor.swift */; };
 		5722B56F2B065DAB00B68C11 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B56E2B065DAB00B68C11 /* User.swift */; };
 		5722B5722B065DD600B68C11 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B5712B065DD600B68C11 /* HomeScreen.swift */; };
-		5722B5812B0664C500B68C11 /* MyFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B5802B0664C500B68C11 /* MyFonts.swift */; };
-		5722B5832B0664D000B68C11 /* MyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B5822B0664D000B68C11 /* MyColors.swift */; };
-		5722B58A2B06651100B68C11 /* ProfileBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B5842B06651000B68C11 /* ProfileBar.swift */; };
-		5722B58B2B06651100B68C11 /* DoctorBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B5852B06651100B68C11 /* DoctorBar.swift */; };
-		5722B58C2B06651100B68C11 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B5862B06651100B68C11 /* CategoryList.swift */; };
-		5722B58D2B06651100B68C11 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B5872B06651100B68C11 /* SearchField.swift */; };
-		5722B58E2B06651100B68C11 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B5882B06651100B68C11 /* CategoryView.swift */; };
-		5722B58F2B06651100B68C11 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B5892B06651100B68C11 /* Content.swift */; };
+		CE19A0F62B07358800095DDD /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19A0F52B07358800095DDD /* CategoryList.swift */; };
+		CE19A0F82B07363200095DDD /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19A0F72B07363200095DDD /* CategoryView.swift */; };
+		CE19A0FA2B0736F600095DDD /* MyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19A0F92B0736F600095DDD /* MyColors.swift */; };
+		CE19A0FC2B07374600095DDD /* MyFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19A0FB2B07374600095DDD /* MyFonts.swift */; };
+		CE19A0FE2B07386B00095DDD /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19A0FD2B07386B00095DDD /* Content.swift */; };
+		CE19A1002B0738A100095DDD /* DoctorBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19A0FF2B0738A100095DDD /* DoctorBar.swift */; };
+		CE19A1022B07399700095DDD /* ProfileBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19A1012B07399700095DDD /* ProfileBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,14 +63,13 @@
 		5722B56C2B065DA500B68C11 /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 		5722B56E2B065DAB00B68C11 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5722B5712B065DD600B68C11 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
-		5722B5802B0664C500B68C11 /* MyFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyFonts.swift; path = "../../../../Downloads/Lab2 2/Theme/MyFonts.swift"; sourceTree = "<group>"; };
-		5722B5822B0664D000B68C11 /* MyColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyColors.swift; path = "../../../../Downloads/Lab2 2/Theme/MyColors.swift"; sourceTree = "<group>"; };
-		5722B5842B06651000B68C11 /* ProfileBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileBar.swift; path = "../../../../Downloads/Lab2 2/Views/ProfileBar.swift"; sourceTree = "<group>"; };
-		5722B5852B06651100B68C11 /* DoctorBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DoctorBar.swift; path = "../../../../Downloads/Lab2 2/Views/DoctorBar.swift"; sourceTree = "<group>"; };
-		5722B5862B06651100B68C11 /* CategoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryList.swift; path = "../../../../Downloads/Lab2 2/Views/CategoryList.swift"; sourceTree = "<group>"; };
-		5722B5872B06651100B68C11 /* SearchField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchField.swift; path = "../../../../Downloads/Lab2 2/Views/SearchField.swift"; sourceTree = "<group>"; };
-		5722B5882B06651100B68C11 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryView.swift; path = "../../../../Downloads/Lab2 2/Views/CategoryView.swift"; sourceTree = "<group>"; };
-		5722B5892B06651100B68C11 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Content.swift; path = "../../../../Downloads/Lab2 2/Views/Content.swift"; sourceTree = "<group>"; };
+		CE19A0F52B07358800095DDD /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		CE19A0F72B07363200095DDD /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		CE19A0F92B0736F600095DDD /* MyColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColors.swift; sourceTree = "<group>"; };
+		CE19A0FB2B07374600095DDD /* MyFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFonts.swift; sourceTree = "<group>"; };
+		CE19A0FD2B07386B00095DDD /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		CE19A0FF2B0738A100095DDD /* DoctorBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorBar.swift; sourceTree = "<group>"; };
+		CE19A1012B07399700095DDD /* ProfileBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +161,8 @@
 		5722B55F2B065D0E00B68C11 /* Themes */ = {
 			isa = PBXGroup;
 			children = (
-				5722B5822B0664D000B68C11 /* MyColors.swift */,
-				5722B5802B0664C500B68C11 /* MyFonts.swift */,
+				CE19A0F92B0736F600095DDD /* MyColors.swift */,
+				CE19A0FB2B07374600095DDD /* MyFonts.swift */,
 			);
 			path = Themes;
 			sourceTree = "<group>";
@@ -199,12 +197,11 @@
 		5722B5732B065DE300B68C11 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5722B5862B06651100B68C11 /* CategoryList.swift */,
-				5722B5882B06651100B68C11 /* CategoryView.swift */,
-				5722B5892B06651100B68C11 /* Content.swift */,
-				5722B5852B06651100B68C11 /* DoctorBar.swift */,
-				5722B5842B06651000B68C11 /* ProfileBar.swift */,
-				5722B5872B06651100B68C11 /* SearchField.swift */,
+				CE19A0F52B07358800095DDD /* CategoryList.swift */,
+				CE19A0F72B07363200095DDD /* CategoryView.swift */,
+				CE19A0FD2B07386B00095DDD /* Content.swift */,
+				CE19A0FF2B0738A100095DDD /* DoctorBar.swift */,
+				CE19A1012B07399700095DDD /* ProfileBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -341,19 +338,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5722B58C2B06651100B68C11 /* CategoryList.swift in Sources */,
-				5722B58A2B06651100B68C11 /* ProfileBar.swift in Sources */,
 				5722B56B2B065D9E00B68C11 /* Category.swift in Sources */,
 				5722B56D2B065DA500B68C11 /* Doctor.swift in Sources */,
-				5722B5832B0664D000B68C11 /* MyColors.swift in Sources */,
-				5722B58E2B06651100B68C11 /* CategoryView.swift in Sources */,
+				CE19A1002B0738A100095DDD /* DoctorBar.swift in Sources */,
+				CE19A0F62B07358800095DDD /* CategoryList.swift in Sources */,
+				CE19A1022B07399700095DDD /* ProfileBar.swift in Sources */,
+				CE19A0FE2B07386B00095DDD /* Content.swift in Sources */,
 				5722B5382B065CE400B68C11 /* ContentView.swift in Sources */,
-				5722B58D2B06651100B68C11 /* SearchField.swift in Sources */,
-				5722B5812B0664C500B68C11 /* MyFonts.swift in Sources */,
-				5722B58F2B06651100B68C11 /* Content.swift in Sources */,
-				5722B58B2B06651100B68C11 /* DoctorBar.swift in Sources */,
+				CE19A0F82B07363200095DDD /* CategoryView.swift in Sources */,
 				5722B5722B065DD600B68C11 /* HomeScreen.swift in Sources */,
 				5722B5362B065CE400B68C11 /* EffectiveLab2App.swift in Sources */,
+				CE19A0FA2B0736F600095DDD /* MyColors.swift in Sources */,
+				CE19A0FC2B07374600095DDD /* MyFonts.swift in Sources */,
 				5722B56F2B065DAB00B68C11 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

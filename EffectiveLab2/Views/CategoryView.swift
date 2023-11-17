@@ -5,9 +5,9 @@ struct CategoryView: View {
     var category: Category
 
     var body: some View {
-        VStack(alignment: .center, spacing: 8) 
+        VStack(alignment: .center, spacing: 8)
         {
-            HStack(alignment: .top, spacing: 10) 
+            HStack(alignment: .top, spacing: 10)
             {
                 Image("covid")
                     .frame(width: 24, height: 24)
@@ -19,7 +19,7 @@ struct CategoryView: View {
 
             Text(category.name)
                 .font(.custom(MyFonts.poppinsRegular, size: 15))
-                .foregroundColor(MyColors.Text.Secondary)
+                .foregroundColor(MyColors.MyText.Secondary)
         }
             .padding(0)
     }
@@ -27,6 +27,6 @@ struct CategoryView: View {
 
 struct CategoryView_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryView()
+        CategoryView(category: Category(imageName: "covid", name: "virus"))
     }
 }
