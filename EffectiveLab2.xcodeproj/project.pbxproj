@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FE011932B0C849200B73DAF /* DoctorBarBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE011922B0C849200B73DAF /* DoctorBarBottom.swift */; };
+		3FE011952B0C860100B73DAF /* DoctorBarTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE011942B0C860100B73DAF /* DoctorBarTop.swift */; };
 		5722B5362B065CE400B68C11 /* EffectiveLab2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B5352B065CE400B68C11 /* EffectiveLab2App.swift */; };
 		5722B5382B065CE400B68C11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B5372B065CE400B68C11 /* ContentView.swift */; };
 		5722B53A2B065CE600B68C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5722B5392B065CE600B68C11 /* Assets.xcassets */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FE011922B0C849200B73DAF /* DoctorBarBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorBarBottom.swift; sourceTree = "<group>"; };
+		3FE011942B0C860100B73DAF /* DoctorBarTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorBarTop.swift; sourceTree = "<group>"; };
 		5722B5322B065CE400B68C11 /* EffectiveLab2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectiveLab2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5722B5352B065CE400B68C11 /* EffectiveLab2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveLab2App.swift; sourceTree = "<group>"; };
 		5722B5372B065CE400B68C11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -202,6 +206,8 @@
 				CE19A0FD2B07386B00095DDD /* Content.swift */,
 				CE19A0FF2B0738A100095DDD /* DoctorBar.swift */,
 				CE19A1012B07399700095DDD /* ProfileBar.swift */,
+				3FE011922B0C849200B73DAF /* DoctorBarBottom.swift */,
+				3FE011942B0C860100B73DAF /* DoctorBarTop.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -341,6 +347,8 @@
 				5722B56B2B065D9E00B68C11 /* Category.swift in Sources */,
 				5722B56D2B065DA500B68C11 /* Doctor.swift in Sources */,
 				CE19A1002B0738A100095DDD /* DoctorBar.swift in Sources */,
+				3FE011932B0C849200B73DAF /* DoctorBarBottom.swift in Sources */,
+				3FE011952B0C860100B73DAF /* DoctorBarTop.swift in Sources */,
 				CE19A0F62B07358800095DDD /* CategoryList.swift in Sources */,
 				CE19A1022B07399700095DDD /* ProfileBar.swift in Sources */,
 				CE19A0FE2B07386B00095DDD /* Content.swift in Sources */,

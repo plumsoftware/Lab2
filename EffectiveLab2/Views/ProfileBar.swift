@@ -2,15 +2,15 @@ import SwiftUI
 
 struct ProfileBar: View {
 
-    var user: User = User(icon: "profile", name: "Slava")
+    var user: User = User(icon: "userProfile", name: "Slava")
 
     var body: some View {
         HStack(alignment: .top) {
             Text("Hello,")
-                .font(.custom(MyFonts.poppinsRegular, size: 14.0))
+                .font(.custom(MyFonts.poppinsRegular, size: 14.0)).fontWeight(.regular)
                 .foregroundColor(MyColors.MyText.Secondary)
             Text("Hi " + user.name)
-                .font(.custom(MyFonts.poppinsRegular, size: 20))
+                .font(.custom(MyFonts.poppinsBold, size: 20)).fontWeight(.bold)
             
             Spacer()
             
@@ -26,6 +26,6 @@ struct ProfileBar: View {
 
 struct ProfileBar_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileBar(user: User(icon: "profile", name: "Slava"))
+        ProfileBar(user: User(icon: "userProfile", name: "Slava"))
     }
 }
