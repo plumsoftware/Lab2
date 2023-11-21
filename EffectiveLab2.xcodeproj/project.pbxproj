@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		3FE011932B0C849200B73DAF /* DoctorBarBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE011922B0C849200B73DAF /* DoctorBarBottom.swift */; };
 		3FE011952B0C860100B73DAF /* DoctorBarTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE011942B0C860100B73DAF /* DoctorBarTop.swift */; };
+		3FE011992B0C8B7D00B73DAF /* NearDoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE011982B0C8B7D00B73DAF /* NearDoctorCard.swift */; };
+		3FE0119B2B0C8FBD00B73DAF /* NearDoctorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0119A2B0C8FBD00B73DAF /* NearDoctorList.swift */; };
+		3FE0119D2B0C93BA00B73DAF /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0119C2B0C93BA00B73DAF /* SearchView.swift */; };
 		5722B5362B065CE400B68C11 /* EffectiveLab2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B5352B065CE400B68C11 /* EffectiveLab2App.swift */; };
 		5722B5382B065CE400B68C11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B5372B065CE400B68C11 /* ContentView.swift */; };
 		5722B53A2B065CE600B68C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5722B5392B065CE600B68C11 /* Assets.xcassets */; };
@@ -51,6 +54,9 @@
 /* Begin PBXFileReference section */
 		3FE011922B0C849200B73DAF /* DoctorBarBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorBarBottom.swift; sourceTree = "<group>"; };
 		3FE011942B0C860100B73DAF /* DoctorBarTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorBarTop.swift; sourceTree = "<group>"; };
+		3FE011982B0C8B7D00B73DAF /* NearDoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctorCard.swift; sourceTree = "<group>"; };
+		3FE0119A2B0C8FBD00B73DAF /* NearDoctorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctorList.swift; sourceTree = "<group>"; };
+		3FE0119C2B0C93BA00B73DAF /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		5722B5322B065CE400B68C11 /* EffectiveLab2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectiveLab2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5722B5352B065CE400B68C11 /* EffectiveLab2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveLab2App.swift; sourceTree = "<group>"; };
 		5722B5372B065CE400B68C11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -208,6 +214,9 @@
 				CE19A1012B07399700095DDD /* ProfileBar.swift */,
 				3FE011922B0C849200B73DAF /* DoctorBarBottom.swift */,
 				3FE011942B0C860100B73DAF /* DoctorBarTop.swift */,
+				3FE011982B0C8B7D00B73DAF /* NearDoctorCard.swift */,
+				3FE0119A2B0C8FBD00B73DAF /* NearDoctorList.swift */,
+				3FE0119C2B0C93BA00B73DAF /* SearchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -354,9 +363,12 @@
 				CE19A0FE2B07386B00095DDD /* Content.swift in Sources */,
 				5722B5382B065CE400B68C11 /* ContentView.swift in Sources */,
 				CE19A0F82B07363200095DDD /* CategoryView.swift in Sources */,
+				3FE0119D2B0C93BA00B73DAF /* SearchView.swift in Sources */,
+				3FE011992B0C8B7D00B73DAF /* NearDoctorCard.swift in Sources */,
 				5722B5722B065DD600B68C11 /* HomeScreen.swift in Sources */,
 				5722B5362B065CE400B68C11 /* EffectiveLab2App.swift in Sources */,
 				CE19A0FA2B0736F600095DDD /* MyColors.swift in Sources */,
+				3FE0119B2B0C8FBD00B73DAF /* NearDoctorList.swift in Sources */,
 				CE19A0FC2B07374600095DDD /* MyFonts.swift in Sources */,
 				5722B56F2B065DAB00B68C11 /* User.swift in Sources */,
 			);

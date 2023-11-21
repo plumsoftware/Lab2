@@ -7,9 +7,13 @@ struct Content: View {
             ProfileBar()
             DoctorBar()
             CategoryList()
+            SearchView()
+            
             Text("Near Doctors")
                 .font(.custom(MyFonts.poppinsBold, size: 16))
                 .foregroundColor(MyColors.MyText.Primary)
+            
+            NearDoctorList()
         }
             .padding(24)
     }
