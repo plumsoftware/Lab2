@@ -6,7 +6,7 @@ struct HomeScreen: View {
             ScrollView (showsIndicators: false) {
                 VStack (alignment: .leading){
 
-                    //Content()
+                    Content()
                     
                     Spacer()
                         .frame(height: 50)
